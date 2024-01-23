@@ -1,0 +1,32 @@
+.techstack-container {
+    background-color: whitesmoke;
+    padding-top: 10%;
+}
+.techstack-container hr{
+    width: 40%;
+    color: gray;
+    margin: auto;
+    margin-bottom: 3%;
+}
+.techstack-container .techstack{
+
+    text-align: center;
+    border: 1px solid orange;
+    box-shadow: 5px;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    color: #1e1e2c;
+    background-color: antiquewhite;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0 0 10px rgba(249, 159, 75, 0.7);
+}
+.techstack-container .techstack svg{
+    font-size:x-large;
+}
+.techstack-container .techstack:hover{
+    transform: scale(1.06);
+    transition: 0.3s;
+}

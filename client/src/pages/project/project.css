@@ -1,0 +1,79 @@
+.project-container {
+    background-color: whitesmoke;
+    padding-top: 10%;
+}
+.project-container hr{
+    width: 40%;
+    color: gray;
+    margin: auto;
+    margin-bottom: 3%;
+}
+.project-container .row{
+    margin-top: 7%;
+}
+.project-container .card-notify-badge{  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: -10px;
+    top: -20px;
+    background-color: rgb(162, 244, 98);
+    border-radius: 20px;
+    padding: 2%;
+}
+.project-container img{
+    height: 100%;
+    width: 100%;
+
+}
+.project-container .card-image-overly{
+    font-size: larger;
+    margin-top: 5%;
+
+}
+.project-container .card-image-overly span{
+    display: inline;
+    margin-left: 1%;
+}
+.project-container .card-detail-badge {
+    background-color: rgb(162, 244, 98);
+    border-radius: 10px;
+    padding: 2%;
+    font-size: smaller;
+}
+.project-title{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    color: #1e1e2c;
+}
+.project-desc{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: #1e1e2c;;
+}
+.project-link{
+    background-color: orange;
+    padding: 2%;
+    margin: auto;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 5%;
+}
+.project-link a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.project-link:hover{
+    background-color: rgb(162, 244, 98);
+    box-shadow: rgba(149, 233, 93, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.project-container .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: 0.5s;
+}

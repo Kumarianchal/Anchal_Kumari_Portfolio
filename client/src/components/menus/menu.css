@@ -1,0 +1,64 @@
+.navbar-profile-pic img{
+    height: 30vh;
+    width: 90%;
+    margin-top: 10px;
+    border-radius: 100%;
+    display: flex;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+.nav-item {
+    margin-top: 10%;
+    color: white;
+}
+.nav-link {
+    margin-left: 5%;
+    cursor: pointer;
+    font-size: small;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-link svg{
+    height: 5vh;
+    width: 40%;
+}
+
+
+@keyframes grow-shrink {
+    0% {
+      transform: scale(1.1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  
+  .nav-link svg:hover {
+    animation: grow-shrink 0.5s ease-in-out;
+  }
+  .nav-link:hover{
+    color: yellow;
+  }
+
+  .nav-link .active{
+    color: yellow;
+    text-decoration: none;
+  }
+  .nav-link .active svg{
+    filter: drop-shadow(0 0 5px rgba(245, 245, 117, 0.7));
+  }
+
+
+
+  @media (max-width: 600px) {
+    .navbar-profile-pic{
+        display: none;
+    }
+    .nav-link-text{
+      display: none;
+    }
+    
+}

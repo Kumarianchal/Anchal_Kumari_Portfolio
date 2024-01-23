@@ -1,0 +1,30 @@
+.sidebar-section {
+    display: flex;
+}
+.sidebar {
+    height:auto;
+    width: 8%;
+    
+    background-color: #1e1e2c;
+
+    position: fixed; /* Make the sidebar fixed */
+    top: 0; /* Fixed at the top of the viewport */
+    bottom: 0; /* Fixed to the bottom of the viewport */
+    overflow-y: auto; /* Add a vertical scrollbar when the content overflows */
+  
+}
+.sidebar-toggle {
+    width: 18%;
+}
+.sidebar-toggle-icons {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    cursor: pointer;
+}
+.sidebar-toggle-icons p svg {
+    background-color: #f29f67;
+    color: white;
+    margin-top: 30px;
+}
+

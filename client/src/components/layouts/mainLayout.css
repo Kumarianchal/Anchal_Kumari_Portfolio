@@ -1,0 +1,12 @@
+.app{
+    display: flex;
+  }
+  .main-container{
+    flex: 1;
+    padding: 0px 10px;
+    margin-left: 8%;
+  }
+  .main-container-toggle {
+    margin-left: 18%;
+  }
+  

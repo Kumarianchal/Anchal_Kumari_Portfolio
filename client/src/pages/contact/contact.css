@@ -1,0 +1,84 @@
+.contact-container {
+    background-color: whitesmoke;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.contact-container hr{
+    width: 40%;
+    color: gray;
+    margin: auto;
+    margin-bottom: 3%;
+}
+.contact-container form .btn{
+    width: 80%;
+    background-color: rgb(2, 37, 61);
+    color: white;
+    margin-left: 10%;
+    border: 0;
+}
+.contact-container .card1{
+    background-color: rgb(2, 37, 61);
+    height: 100%
+}
+.contact-container .card1{
+    height: 100%
+}
+.contact-container .card2{
+    height: 100%;
+    background-color: rgb(237, 233, 233);
+}
+.contact-container .card1 img{
+    margin-top: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+.contact-container .card:hover{ 
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: 0.5s;
+}
+.contact-icons a{
+    text-decoration: none;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    color: #000;
+    font-size:x-small;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.contact-icons a:hover{
+    cursor: pointer;
+}
+.contact-icons span{
+    margin-right: 10%;
+    font-size: x-large;
+
+}
+.contact-icons span svg{
+    color: rgb(6, 6, 108);
+}
+.contact-icons span svg:hover{
+    
+    transform: scale(1.2);
+    transition: 0.5s;
+    
+}
+input, textarea{
+    font-family: 'Courier New', Courier, monospace;
+}
+input:focus, textarea:focus{
+    box-shadow: none !important;
+    outline: 1px solid rgb(3, 21, 109) !important;
+}
+.mail{
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+}
+.mail h4{
+    color: rgb(3, 3, 63);
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
